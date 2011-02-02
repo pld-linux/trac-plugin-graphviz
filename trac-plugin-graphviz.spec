@@ -10,6 +10,9 @@ Source0:	http://trac-hacks.org/changeset/latest/graphvizplugin/0.11-%{version}?o
 # Source0-md5:	5ffbcb4743c85c0a34eff98918c814b6
 URL:		http://trac-hacks.org/wiki/GraphvizPlugin
 BuildRequires:	python-devel
+BuildRequires:	python-modules
+BuildRequires:	python-setuptools
+BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.553
 BuildRequires:	unzip
 Requires:	graphviz
